@@ -17,7 +17,6 @@ const Footer = () => {
 
 export default React.memo(Footer)
 
-//React.memo - компонент рендерится только если изменение в Footer
 
 
 
