@@ -1,6 +1,4 @@
-// ЭТО КАСТОМНЫЙ ХУК
-// localStorage это это база данных ключ(строка): значение(строка), сохранять данные на странице при ее обновлении без БД
-
+// КАСТОМНЫЙ ХУК
 import { useEffect, useState } from "react"
 
 function useLocalStorage(initState, localStorageKey) { //обертка над существующими хуками
