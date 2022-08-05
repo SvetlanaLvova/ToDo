@@ -6,7 +6,7 @@ const TodosContext = createContext()
 function TodosContextProvider({children}){
 
   const [todos, setTodos] = useLocalStorage([], 'todos')
-  //console.log(todos); // todos - это [], после добавления  => [{}]
+  
   
   const addNewTodo = (inp) => {
     setTodos(prev => [...prev, { //prev это todos
